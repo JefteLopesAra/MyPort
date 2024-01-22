@@ -1,0 +1,117 @@
+<c:FragmentDefinition xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.f"
+    xmlns:c="sap.ui.core">
+
+    <VBox>
+        <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+            <Title class="sapUiSmallMarginTopBottom" text="Projetos" titleStyle="H2"/>
+        </VBox>
+        <Carousel class="sapUiContentPadding">
+            <f:Card>
+                <f:content>
+                    <l:VerticalLayout class="sapUiContentPadding" width="100%">
+                        <l:BlockLayout>
+                            <l:BlockLayoutRow>
+                                <l:BlockLayoutCell titleAlignment="Center" title="MyTask" width="1">
+                                    <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+                                        <Avatar src="image/ProjectMyTask.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
+                                            <detailBox>
+                                                <LightBox>
+                                                    <LightBoxItem imageSrc="image/ProjectMyTask.png">
+                                                    </LightBoxItem>
+                                                    <LightBoxItem imageSrc="image/ProjectMyTask.png">
+                                                    </LightBoxItem>
+                                                </LightBox>
+                                            </detailBox>
+                                        </Avatar>
+                                        <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
+                                            <Label text="Usado:" />
+                                        </HBox>
+                                        <HBox class="sapUiSmallMarginBottom">
+                                            <Text text="SAPUI5 e Javascript" />
+                                        </HBox>
+                                        <HBox class="sapUiTinyMarginBottom">
+                                            <Label text="Descrição:" />
+                                        </HBox>
+                                        <HBox class="sapUiSmallMarginBottom">
+                                            <Text text="Sistema de Gerenciamento de Tarefas" />
+                                        </HBox>
+                                    </VBox>
+                                </l:BlockLayoutCell>
+                            </l:BlockLayoutRow>
+                        </l:BlockLayout>
+                    </l:VerticalLayout>
+                </f:content>
+            </f:Card>
+            <f:Card>
+                <f:content>
+                    <l:VerticalLayout class="sapUiContentPadding" width="100%">
+                        <l:BlockLayout>
+                            <l:BlockLayoutRow>
+                                <l:BlockLayoutCell titleAlignment="Center" title="ADOnline" width="1">
+                                    <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+                                        <Avatar src="image/ProjectADOnline.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
+                                            <detailBox>
+                                                <LightBox>
+                                                    <LightBoxItem imageSrc="image/ProjectADOnline.png">
+                                                    </LightBoxItem>
+                                                </LightBox>
+                                            </detailBox>
+                                        </Avatar>
+                                        <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
+                                            <Label text="Usado:" />
+                                        </HBox>
+                                        <HBox class="sapUiSmallMarginBottom">
+                                            <Text text="SAPUI5 e Javscript" />
+                                        </HBox>
+                                        <HBox class="sapUiTinyMarginBottom">
+                                            <Label text="Descrição:" />
+                                        </HBox>
+                                        <HBox class="sapUiSmallMarginBottom">
+                                            <Text text="Sistema de gerencimento de eventos" />
+                                        </HBox>
+                                    </VBox>
+                                </l:BlockLayoutCell>
+                            </l:BlockLayoutRow>
+                        </l:BlockLayout>
+                    </l:VerticalLayout>
+                </f:content>
+            </f:Card>
+            <f:Card>
+                <f:content>
+                    <l:VerticalLayout class="sapUiContentPadding" width="100%">
+                        <l:BlockLayout>
+                            <l:BlockLayoutRow>
+                                <l:BlockLayoutCell titleAlignment="Center" title="Calculadora" width="1">
+                                    <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+                                        <Avatar src="image/ProjectCalcu.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
+                                            <detailBox>
+                                                <LightBox>
+                                                    <LightBoxItem imageSrc="image/ProjectCalcu.png">
+                                                    </LightBoxItem>
+                                                </LightBox>
+                                            </detailBox>
+                                        </Avatar>
+                                        <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
+                                            <Label text="Usado:" />
+                                        </HBox>
+                                        <HBox class="sapUiSmallMarginBottom">
+                                            <Text text="Html, css e Javascript." />
+                                        </HBox>
+                                        <HBox class="sapUiTinyMarginBottom">
+                                            <Label text="Descrição:" />
+                                        </HBox>
+                                        <HBox class="sapUiSmallMarginBottom">
+                                            <Text text="Calculadora simples com soma, subtração, multiplicação e divisão." />
+                                        </HBox>
+                                    </VBox>
+                                </l:BlockLayoutCell>
+                            </l:BlockLayoutRow>
+                        </l:BlockLayout>
+                    </l:VerticalLayout>
+                </f:content>
+            </f:Card>
+        </Carousel>
+    </VBox>
+</c:FragmentDefinition>

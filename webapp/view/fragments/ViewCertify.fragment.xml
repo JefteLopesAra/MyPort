@@ -1,0 +1,21 @@
+<c:FragmentDefinition xmlns="sap.m"
+	xmlns:c="sap.ui.core">
+	<Dialog contentWidth="100rem">
+		<customHeader>
+            <Toolbar>
+                <Title text="Certificado escolar | Histórico escolar" />
+                <ToolbarSpacer />
+                <Button press="onToGoOut" icon="sap-icon://decline" />
+            </Toolbar>
+        </customHeader>
+		<ScrollContainer height="100%" width="100%" horizontal="true" vertical="true">
+			<FlexBox direction="Column" renderType="Div" class="sapUiSmallMargin">
+				<PDFViewer source="image/PDF/SchoolCertificate.pdf" height="37rem">
+					<layoutData>
+						<FlexItemData growFactor="1" />
+					</layoutData>
+				</PDFViewer>
+			</FlexBox>
+		</ScrollContainer>
+	</Dialog>
+</c:FragmentDefinition>

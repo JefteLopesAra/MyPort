@@ -1,0 +1,38 @@
+<c:FragmentDefinition xmlns="sap.m"
+    xmlns:c="sap.ui.core">
+    <HBox class="customHboxMain sapUiSmallMarginBegin" alignContent="Center" alignItems="Center" justifyContent="Center">
+        <VBox>
+            <Avatar class="sapUiSmallMarginBottom Status" src="image/MyStatusSmall.jpg" displaySize="Custom" customDisplaySize="20rem"/>
+            <HBox alignContent="Center" alignItems="Center" justifyContent="Center">
+                <Avatar src="image/LogoLinkedin.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do Linkedin" showBorder="true" press="onRedirectToLinkedin"/>
+                <Avatar src="image/LogoGitHub.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do gitHub" showBorder="true" press="onRedirectToGitHub"/>
+            </HBox>
+        </VBox>
+    </HBox>
+    <HBox class="customHboxMainRight" alignContent="Center" alignItems="Center" justifyContent="Center">
+        <VBox>
+            <Title textAlign="Center" text="Olá! Sou Jefté Lopes Desenvolvedor Freelancer" wrapping="true" titleStyle="H2"/>
+            <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                <Avatar fallbackIcon="sap-icon://popup-window" backgroundColor="Accent10"/>
+                <Title text="Desenvolvendo interfaces com SAPUI5 e Javascript" wrapping="true" titleStyle="H4"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                <Avatar fallbackIcon="sap-icon://study-leave" backgroundColor="Accent9"/>
+                <Title text="Estudante de Análise e Desenvolvimento de Sistemas (Em Breve)" wrapping="true" titleStyle="H4"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                <Avatar fallbackIcon="sap-icon://lightbulb" backgroundColor="Accent7"/>
+                <Title text="Interesse em desenvolvimento Front-end" wrapping="true" titleStyle="H4"/>
+            </HBox>
+            <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                <Avatar fallbackIcon="sap-icon://target-group" backgroundColor="Accent8"/>
+                <Title text="Em busca de uma oportunidade para atuar como desenvolvedor" wrapping="true" titleStyle="H4"/>
+            </HBox>
+
+            <HBox>
+                <Button class="sapUiTinyMarginBeginEnd" text="Contato" tooltip="Informações de contato" icon="sap-icon://employee-lookup" type="Emphasized"/>
+                <Button class="sapUiTinyMarginBeginEnd" text="Currículo" tooltip="Download do currículo" icon="sap-icon://download" type="Ghost" press="onDownloadPDFCurriculum"/>
+            </HBox>
+        </VBox>
+    </HBox>
+</c:FragmentDefinition>

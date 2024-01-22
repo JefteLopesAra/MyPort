@@ -1,0 +1,28 @@
+<c:FragmentDefinition xmlns="sap.m"
+    xmlns:c="sap.ui.core"
+    xmlns:l="sap.ui.layout">
+    <l:VerticalLayout width="100%">
+        <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+            <Title class="sapUiSmallMarginTopBottom" text="Sobre mim" titleStyle="H2"/>
+        </VBox>
+        <l:BlockLayout>
+            <l:BlockLayoutRow accentCells="Accent1">
+                <l:BlockLayoutCell width="1" title="Experiências" titleAlignment="Center">
+                    <Text textAlign="Center" text="No presente momento, exerço a função de desenvolvedor freelancer especializado em SAPUI5, aplicando de maneira integrada o XML e o JavaScript para criar interfaces dinâmicas e robustas. Minha trajetória educacional abrange o ensino médio, o qual foi integrado a um curso técnico em informática. Estou profundamente comprometido em expandir meu conhecimento e cultivar novas habilidades, com o objetivo de oferecer à empresa um valor substancialmente enriquecido." />
+                </l:BlockLayoutCell>
+                <l:BlockLayoutCell title="Formação Acadêmica" titleAlignment="Center">
+                    <Text textAlign="Center" text="Conforme mencionado previamente, frequentei o ensino médio profissionalizante, onde adquiri uma vasta gama de conhecimentos, abrangendo desde noções de informática básica até programação orientada a objetos. Após completar o período de três anos de curso, tive a oportunidade de realizar um estágio, o qual me proporcionou uma compreensão mais profunda do ambiente profissional. Caso deseje obter mais informações sobre os tópicos abordados durante este curso, convido você a conferir o certificado disponibilizado logo abaixo." />
+                </l:BlockLayoutCell>
+            </l:BlockLayoutRow>
+        </l:BlockLayout>
+        <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+            <Title class="sapUiSmallMarginBottom sapUiMediumMarginTop" text="Certificado" titleStyle="H3"/>
+            <Avatar id="certify1" src="image/ImgSchoolCertifi.jpg" class="sapUiSmallMarginBottom AvatarCertify" showBorder="true" tooltip="Ver Certificado" displaySize="Custom" customDisplaySize="10rem" customFontSize="5rem" press="onViewCertify">
+                <detailBox>
+                    <LightBox>
+                    </LightBox>
+                </detailBox>
+            </Avatar>
+        </VBox>
+    </l:VerticalLayout>
+</c:FragmentDefinition>

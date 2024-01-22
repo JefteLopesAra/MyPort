@@ -1,0 +1,7 @@
+<mvc:View controllerName="sap.devs.port.myport.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <App id="appContainer">
+        
+    </App>
+</mvc:View>

@@ -1,0 +1,44 @@
+<c:FragmentDefinition xmlns="sap.m"
+    xmlns:l="sap.ui.layout"
+    xmlns:c="sap.ui.core">
+    <l:VerticalLayout width="100%">
+        <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
+            <Title class="sapUiSmallMarginTopBottom" text="Contato" titleStyle="H2"/>
+        </VBox>
+        <l:BlockLayout>
+            <l:BlockLayoutRow accentCells="Accent1">
+                <l:BlockLayoutCell width="4">
+                    <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                        <Avatar fallbackIcon="sap-icon://map-2" backgroundColor="Transparent" displaySize="Custom" customFontSize="3rem"/>
+                        <VBox class="sapUiTinyMargin">
+                            <Title text="Localidade" wrapping="true" titleStyle="H3"/>
+                            <Title text="Fortaleza, Ceará" wrapping="true" titleStyle="H4"/>
+                        </VBox>
+                    </HBox>
+                </l:BlockLayoutCell>
+                <l:BlockLayoutCell width="4">
+                    <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                        <Avatar fallbackIcon="sap-icon://email" backgroundColor="Transparent" displaySize="Custom" customFontSize="3rem"/>
+                        <VBox class="sapUiTinyMargin">
+                            <Title text="E-mail" wrapping="true" titleStyle="H3"/>
+                            <Title text="jeftelopes05@gmail.com" wrapping="true" titleStyle="H4"/>
+                        </VBox>
+                    </HBox>
+                </l:BlockLayoutCell>
+                <l:BlockLayoutCell width="4">
+                    <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
+                        <Avatar fallbackIcon="sap-icon://call" backgroundColor="Transparent" displaySize="Custom" customFontSize="3rem"/>
+                        <VBox class="sapUiTinyMargin">
+                            <Title text="Telefone" wrapping="true" titleStyle="H3"/>
+                            <Title text="+85 99175-7561" wrapping="true" titleStyle="H4"/>
+                        </VBox>
+                    </HBox>
+                </l:BlockLayoutCell>
+            </l:BlockLayoutRow>
+        </l:BlockLayout>
+        <HBox class="sapUiSmallMarginBegin" alignContent="Center" alignItems="Center" justifyContent="Center">
+            <Avatar src="image/LogoLinkedin.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do Linkedin" showBorder="true" press="onRedirectToLinkedin"/>
+            <Avatar src="image/LogoGitHub.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do gitHub" showBorder="true" press="onRedirectToGitHub"/>
+        </HBox>
+    </l:VerticalLayout>
+</c:FragmentDefinition>

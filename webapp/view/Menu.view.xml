@@ -1,0 +1,48 @@
+<mvc:View controllerName="sap.devs.port.myport.controller.Menu" displayBlock="true"
+	xmlns="sap.uxap"
+	xmlns:core="sap.ui.core"
+	xmlns:mvc="sap.ui.core.mvc">
+	<ObjectPageLayout showHeaderContent="false" isChildPage="true" upperCaseAnchorBar="false">
+		<sections>
+			<ObjectPageSection title="Início">
+				<subSections>
+					<ObjectPageSubSection>
+						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.MainScreen" type="XML"/>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Sobre" showTitle="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenAbout" type="XML"/>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Habilidades" showTitle="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenSkills" type="XML"/>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Projetos" showTitle="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenProject" type="XML"/>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+
+			<ObjectPageSection title="Contato" showTitle="false">
+				<subSections>
+					<ObjectPageSubSection>
+						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenContact" type="XML"/>
+					</ObjectPageSubSection>
+				</subSections>
+			</ObjectPageSection>
+		</sections>
+	</ObjectPageLayout>
+</mvc:View>

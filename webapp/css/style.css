@@ -1,0 +1,39 @@
+.customHboxMain {
+    height: 40rem;/* Altura padrão para desktop */
+    min-height: 25rem;/* Altura mínima para mobile */
+
+    @media only screen and (max-width: 767px) {
+        height: 25rem;
+        /* Altura para mobile */
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        height: 35rem;
+        /* Altura para tablet */
+    }
+
+    @media only screen and (min-width: 1280px) {
+        height: 40rem;
+        /* Altura para desktop lange */
+    }
+}
+.customHboxMainRight {
+    height: 40rem;/* Altura padrão para desktop */
+    min-height: 32rem;/* Altura mínima para mobile */
+
+    @media only screen and (max-width: 767px) {
+        height: 38rem;
+        /* Altura para mobile */
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        height: 32rem;
+        /* Altura para tablet */
+    }
+
+    @media only screen and (min-width: 1280px) {
+        height: 40rem;
+        /* Altura para desktop lange */
+    }
+}
+
