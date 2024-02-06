@@ -31,8 +31,8 @@ sap.ui.define([
 		},
 
 		onDownloadPDFCurriculum: function () {
-			var pdfUrl = "image/PDF/Curriculo.pdf"; // Substitua pelo URL real do seu PDF
-			var fileName = "Curriculo.pdf"; // Nome do arquivo a ser baixado
+			var pdfUrl = "image/PDF/Curriculo.pdf"; 
+			var fileName = "Curriculo.pdf";
 
 			var link = document.createElement("a");
 			link.href = pdfUrl;
@@ -41,11 +41,11 @@ sap.ui.define([
 		},
 
 		onRedirectToLinkedin: function () {
-			var linkedinProfileURL = "https://www.linkedin.com/in/jeft%C3%A9-lopes-5a3776251";
+			var linkedinProfileURL = "https://www.linkedin.com/in/jeft%C3%A9-lopes-9288852a9/";
 			window.open(linkedinProfileURL);
 		},
 		onRedirectToGitHub: function () {
-			var linkedinProfileURL = "https://github.com/JefteLopes05";
+			var linkedinProfileURL = "https://github.com/JefteLopesAra";
 			window.open(linkedinProfileURL);
 		}
 	});
