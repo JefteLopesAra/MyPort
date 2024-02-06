@@ -6,7 +6,7 @@
             <Title class="sapUiSmallMarginTopBottom" text="Habilidades" titleStyle="H2"/>
         </VBox>
         <l:BlockLayout>
-            <!-- Coluna 1 -->
+            <!-- linha 1 -->
             <l:BlockLayoutRow accentCells="Accent1">
                 <l:BlockLayoutCell width="1" title="SAPUI5" titleAlignment="Center">
                     <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
@@ -24,16 +24,16 @@
                     </VBox>
                 </l:BlockLayoutCell>
             </l:BlockLayoutRow>
-            <!-- Colune 2 -->
+            <!-- Linha 2 -->
             <l:BlockLayoutRow accentCells="Accent1">
                 <l:BlockLayoutCell width="1" title="Fiori" titleAlignment="Center">
                     <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
                         <Avatar class="sapUiSmallMarginBottom" src="image/Fiori.png" displayShape="Square" displaySize="Custom" customDisplaySize="8rem" customFontSize="3rem"/>
                     </VBox>
                 </l:BlockLayoutCell>
-                <l:BlockLayoutCell width="1" title="Em andamento" titleAlignment="Center">
+                <l:BlockLayoutCell width="1" title="Node.js" titleAlignment="Center">
                     <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
-                        <Avatar class="sapUiSmallMarginBottom" src="image/EmBreve.png" displayShape="Square" displaySize="Custom" customDisplaySize="8rem" customFontSize="3rem"/>
+                        <Avatar class="sapUiSmallMarginBottom" src="image/nodejs.png" displayShape="Square" displaySize="Custom" customDisplaySize="8rem" customFontSize="3rem"/>
                     </VBox>
                 </l:BlockLayoutCell>
                 <l:BlockLayoutCell width="1" title="Em andamento" titleAlignment="Center">

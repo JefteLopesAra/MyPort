@@ -12,24 +12,6 @@ sap.ui.define([
 		onInit: function () {
 			
 		},
-		onViewCertify: function () {
-			if (!this.pDialog) {
-				this.pDialog = this.loadFragment({
-					controller: this,
-					id: this.getView().getId(),
-					name: "sap.devs.port.myport.view.fragments.ViewCertify"
-				});
-
-			}
-			this.pDialog.then(function (oDialog) {
-				this.oDialog = oDialog;
-				this.oDialog.open();
-			}.bind(this));
-		},
-		onToGoOut: function () {
-			this.oDialog.close();
-		},
-
 		onDownloadPDFCurriculum: function () {
 			var pdfUrl = "image/PDF/Curriculo.pdf"; 
 			var fileName = "Curriculo.pdf";

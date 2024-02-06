@@ -4,35 +4,35 @@
         <VBox>
             <Avatar class="sapUiSmallMarginBottom Status" src="image/MyStatusSmall.jpg" displaySize="Custom" customDisplaySize="20rem"/>
             <HBox alignContent="Center" alignItems="Center" justifyContent="Center">
-                <Avatar src="image/LogoLinkedin.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do Linkedin" showBorder="true" press="onRedirectToLinkedin"/>
-                <Avatar src="image/LogoGitHub.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do gitHub" showBorder="true" press="onRedirectToGitHub"/>
+                <Avatar src="image/LogoLinkedin.png" class="sapUiTinyMarginBeginEnd" tooltip="{i18n>StatusLinkedin}" showBorder="true" press="onRedirectToLinkedin"/>
+                <Avatar src="image/LogoGitHub.png" class="sapUiTinyMarginBeginEnd" tooltip="{i18n>StatusGitHub}" showBorder="true" press="onRedirectToGitHub"/>
             </HBox>
         </VBox>
     </HBox>
     <HBox class="customHboxMainRight" alignContent="Center" alignItems="Center" justifyContent="Center">
         <VBox>
-            <Title textAlign="Center" text="Olá! Sou Jefté Lopes Desenvolvedor Freelancer" wrapping="true" titleStyle="H2"/>
+            <Title textAlign="Center" text="{i18n>tlPresentation}" wrapping="true" titleStyle="H2"/>
             <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                 <Avatar fallbackIcon="sap-icon://popup-window" backgroundColor="Accent10"/>
-                <Title text="Desenvolvendo interfaces com SAPUI5 e Javascript" wrapping="true" titleStyle="H4"/>
+                <Title text="{i18n>tlMySkills}" wrapping="true" titleStyle="H4"/>
             </HBox>
             <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                 <Avatar fallbackIcon="sap-icon://study-leave" backgroundColor="Accent9"/>
-                <Title text="Estudante de Análise e Desenvolvimento de Sistemas (Em Breve)" wrapping="true" titleStyle="H4"/>
+                <Title text="{i18n>tlStudying}" wrapping="true" titleStyle="H4"/>
             </HBox>
             <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                 <Avatar fallbackIcon="sap-icon://lightbulb" backgroundColor="Accent7"/>
-                <Title text="Interesse em desenvolvimento Front-end" wrapping="true" titleStyle="H4"/>
+                <Title text="{i18n>tlInterests}" wrapping="true" titleStyle="H4"/>
             </HBox>
             <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                 <Avatar fallbackIcon="sap-icon://target-group" backgroundColor="Accent8"/>
-                <Title text="Em busca de uma oportunidade para atuar como desenvolvedor" wrapping="true" titleStyle="H4"/>
+                <Title text="{i18n>tlOpportunities}" wrapping="true" titleStyle="H4"/>
             </HBox>
 
             <HBox justifyContent="Center">
-                <Button class="sapUiTinyMarginBeginEnd" text="{i18n>tlContact}" tooltip="Informações de contato" icon="sap-icon://employee-lookup" type="Emphasized"/>
-                <Button class="sapUiTinyMarginBeginEnd" text="Currículo" tooltip="Download do currículo" icon="sap-icon://download" type="Ghost" press="onDownloadPDFCurriculum"/>
-                <Button class="sapUiTinyMarginBeginEnd" text="Configuração" tooltip="Configurações gerais" icon="sap-icon://settings" type="Attention"/>
+                <Button class="sapUiTinyMarginBeginEnd" text="{i18n>tlContact}" tooltip="{i18n>btContactInformation}" icon="sap-icon://employee-lookup" type="Emphasized"/>
+                <Button class="sapUiTinyMarginBeginEnd" text="{i18n>btTxCurriculum}" tooltip="{i18n>btTtDownloadCV}" icon="sap-icon://download" type="Success" press="onDownloadPDFCurriculum"/>
+                <Button class="sapUiTinyMarginBeginEnd" text="{i18n>btTxSettings}" tooltip="{i18n>btTtGeneralSettings}" icon="sap-icon://settings" type="Neutral"/>
             </HBox>
         </VBox>
     </HBox>
