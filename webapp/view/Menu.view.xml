@@ -4,7 +4,7 @@
 	xmlns:mvc="sap.ui.core.mvc">
 	<ObjectPageLayout showHeaderContent="false" isChildPage="true" upperCaseAnchorBar="false">
 		<sections>
-			<ObjectPageSection title="Início">
+			<ObjectPageSection title="{i18n>tlStart}">
 				<subSections>
 					<ObjectPageSubSection>
 						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.MainScreen" type="XML"/>
@@ -12,7 +12,7 @@
 				</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection title="Sobre" showTitle="false">
+			<ObjectPageSection title="{i18n>tlAbout}" showTitle="false">
 				<subSections>
 					<ObjectPageSubSection>
 						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenAbout" type="XML"/>
@@ -20,7 +20,7 @@
 				</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection title="Habilidades" showTitle="false">
+			<ObjectPageSection title="{i18n>tlSkills}" showTitle="false">
 				<subSections>
 					<ObjectPageSubSection>
 						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenSkills" type="XML"/>
@@ -28,7 +28,7 @@
 				</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection title="Projetos" showTitle="false">
+			<ObjectPageSection title="{i18n>tlProjects}" showTitle="false">
 				<subSections>
 					<ObjectPageSubSection>
 						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenProject" type="XML"/>
@@ -36,7 +36,7 @@
 				</subSections>
 			</ObjectPageSection>
 
-			<ObjectPageSection title="Contato" showTitle="false">
+			<ObjectPageSection title="{i18n>tlContact}" showTitle="false">
 				<subSections>
 					<ObjectPageSubSection>
 						<core:Fragment fragmentName="sap.devs.port.myport.view.fragments.ScreenContact" type="XML"/>

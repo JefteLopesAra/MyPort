@@ -29,9 +29,10 @@
                 <Title text="Em busca de uma oportunidade para atuar como desenvolvedor" wrapping="true" titleStyle="H4"/>
             </HBox>
 
-            <HBox>
-                <Button class="sapUiTinyMarginBeginEnd" text="Contato" tooltip="Informações de contato" icon="sap-icon://employee-lookup" type="Emphasized"/>
+            <HBox justifyContent="Center">
+                <Button class="sapUiTinyMarginBeginEnd" text="{i18n>tlContact}" tooltip="Informações de contato" icon="sap-icon://employee-lookup" type="Emphasized"/>
                 <Button class="sapUiTinyMarginBeginEnd" text="Currículo" tooltip="Download do currículo" icon="sap-icon://download" type="Ghost" press="onDownloadPDFCurriculum"/>
+                <Button class="sapUiTinyMarginBeginEnd" text="Configuração" tooltip="Configurações gerais" icon="sap-icon://settings" type="Attention"/>
             </HBox>
         </VBox>
     </HBox>
