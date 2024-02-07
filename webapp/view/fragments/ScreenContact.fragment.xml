@@ -11,8 +11,8 @@
                     <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                         <Avatar fallbackIcon="sap-icon://map-2" backgroundColor="Transparent" displaySize="Custom" customFontSize="3rem"/>
                         <VBox class="sapUiTinyMargin">
-                            <Title text="Localidade" wrapping="true" titleStyle="H3"/>
-                            <Title text="Fortaleza, Ceará" wrapping="true" titleStyle="H4"/>
+                            <Title text="{i18n>tlLocation}" wrapping="true" titleStyle="H3"/>
+                            <Title text="{i18n>tlFort}" wrapping="true" titleStyle="H4"/>
                         </VBox>
                     </HBox>
                 </l:BlockLayoutCell>
@@ -20,7 +20,7 @@
                     <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                         <Avatar fallbackIcon="sap-icon://email" backgroundColor="Transparent" displaySize="Custom" customFontSize="3rem"/>
                         <VBox class="sapUiTinyMargin">
-                            <Title text="E-mail" wrapping="true" titleStyle="H3"/>
+                            <Title text="{i18n>tlEmail}" wrapping="true" titleStyle="H3"/>
                             <Title text="jeftelopes05@gmail.com" wrapping="true" titleStyle="H4"/>
                         </VBox>
                     </HBox>
@@ -29,7 +29,7 @@
                     <HBox class="sapUiSmallMarginTopBottom" alignContent="Center" alignItems="Center">
                         <Avatar fallbackIcon="sap-icon://call" backgroundColor="Transparent" displaySize="Custom" customFontSize="3rem"/>
                         <VBox class="sapUiTinyMargin">
-                            <Title text="Telefone" wrapping="true" titleStyle="H3"/>
+                            <Title text="{i18n>tlPhone}" wrapping="true" titleStyle="H3"/>
                             <Title text="+85 99175-7561" wrapping="true" titleStyle="H4"/>
                         </VBox>
                     </HBox>
@@ -37,8 +37,8 @@
             </l:BlockLayoutRow>
         </l:BlockLayout>
         <HBox class="sapUiSmallMarginBegin" alignContent="Center" alignItems="Center" justifyContent="Center">
-            <Avatar src="image/LogoLinkedin.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do Linkedin" showBorder="true" press="onRedirectToLinkedin"/>
-            <Avatar src="image/LogoGitHub.png" class="sapUiTinyMarginBeginEnd" tooltip="Perfil do gitHub" showBorder="true" press="onRedirectToGitHub"/>
+            <Avatar src="image/LogoLinkedin.png" class="sapUiTinyMarginBeginEnd" tooltip="{i18n>StatusLinkedin}" showBorder="true" press="onRedirectToLinkedin"/>
+            <Avatar src="image/LogoGitHub.png" class="sapUiTinyMarginBeginEnd" tooltip="{i18n>StatusGitHub}" showBorder="true" press="onRedirectToGitHub"/>
         </HBox>
     </l:VerticalLayout>
 </c:FragmentDefinition>
