@@ -8,6 +8,9 @@
             <Title class="sapUiSmallMarginTopBottom" text="Projetos" titleStyle="H2"/>
         </VBox>
         <Carousel class="sapUiContentPadding">
+            <customLayout>
+				<CarouselLayout visiblePagesCount="{/CheckCarousel}" />
+			</customLayout>
             <f:Card>
                 <f:content>
                     <l:VerticalLayout class="sapUiContentPadding" width="100%">

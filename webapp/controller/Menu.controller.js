@@ -1,17 +1,37 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
-	"sap/ui/Device",
 	"sap/m/PDFViewer",
 	"sap/ui/model/json/JSONModel"
 ], function (
-	Controller, Device, PDFViewer, JSONModel
+	Controller, PDFViewer, JSONModel
 ) {
 	"use strict";
 
 	return Controller.extend("sap.devs.port.myport.controller.Menu", {
 		onInit: function () {
-			
+			var iCheckCarousel = this._getCheckCarouselValue();
+
+			this.oViewModel = new JSONModel({
+                CheckCarousel: iCheckCarousel
+
+            });
+            this.getView().setModel(this.oViewModel);
 		},
+		_getCheckCarouselValue: function () {
+            if (this._isMobile()) {
+                return 1;
+            } else if (this._isTablet()) {
+                return 2;
+            } else {
+                return 3;
+            }
+        },
+		_isMobile: function () {
+            return window.innerWidth <= 768;
+        },
+		_isTablet: function () {
+            return window.innerWidth <= 1024 && window.innerWidth > 768;
+        },
 		onDownloadPDFCurriculum: function () {
 			var pdfUrl = "image/PDF/Curriculo.pdf"; 
 			var fileName = "Curriculo.pdf";
