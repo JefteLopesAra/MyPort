@@ -36,7 +36,7 @@
                         <Avatar class="sapUiSmallMarginBottom" src="image/nodejs.png" displayShape="Square" displaySize="Custom" customDisplaySize="8rem" customFontSize="3rem"/>
                     </VBox>
                 </l:BlockLayoutCell>
-                <l:BlockLayoutCell width="1" title="Em andamento" titleAlignment="Center">
+                <l:BlockLayoutCell width="1" title="{i18n>tlInProgress}" titleAlignment="Center">
                     <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
                         <Avatar class="sapUiSmallMarginBottom" src="image/EmBreve.png" displayShape="Square" displaySize="Custom" customDisplaySize="8rem" customFontSize="3rem"/>
                     </VBox>

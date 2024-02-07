@@ -29,16 +29,16 @@
                                             </detailBox>
                                         </Avatar>
                                         <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
-                                            <Label text="Usado:" />
+                                            <Label text="{i18n>lbUsed}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="SAPUI5 e Javascript" />
+                                            <Text text="{i18n>lbUi5Js}" />
                                         </HBox>
                                         <HBox class="sapUiTinyMarginBottom">
-                                            <Label text="Descrição:" />
+                                            <Label text="{i18n>lbDescription}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="Sistema de Gerenciamento de Tarefas" />
+                                            <Text text="{i18n>lbDescriptionMyTask}" />
                                         </HBox>
                                     </VBox>
                                 </l:BlockLayoutCell>
@@ -63,16 +63,16 @@
                                             </detailBox>
                                         </Avatar>
                                         <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
-                                            <Label text="Usado:" />
+                                            <Label text="{i18n>lbUsed}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="SAPUI5 e Javscript" />
+                                            <Text text="{i18n>lbUi5Js}" />
                                         </HBox>
                                         <HBox class="sapUiTinyMarginBottom">
-                                            <Label text="Descrição:" />
+                                            <Label text="{i18n>lbDescription}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="Sistema de gerencimento de eventos" />
+                                            <Text text="{i18n>lbDescriptionADOnline}" />
                                         </HBox>
                                     </VBox>
                                 </l:BlockLayoutCell>
@@ -86,7 +86,7 @@
                     <l:VerticalLayout class="sapUiContentPadding" width="100%">
                         <l:BlockLayout>
                             <l:BlockLayoutRow>
-                                <l:BlockLayoutCell titleAlignment="Center" title="Calculadora" width="1">
+                                <l:BlockLayoutCell titleAlignment="Center" title="{i18n>tlCalculator}" width="1">
                                     <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
                                         <Avatar src="image/ProjectCalcu.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
                                             <detailBox>
@@ -97,16 +97,16 @@
                                             </detailBox>
                                         </Avatar>
                                         <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
-                                            <Label text="Usado:" />
+                                            <Label text="{i18n>lbUsed}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="Html, css e Javascript." />
+                                            <Text text="{i18n>lbHtmlCss}" />
                                         </HBox>
                                         <HBox class="sapUiTinyMarginBottom">
-                                            <Label text="Descrição:" />
+                                            <Label text="{i18n>lbDescription}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="Calculadora simples com soma, subtração, multiplicação e divisão." />
+                                            <Text text="{i18n>lbDescriptionCalculator}" />
                                         </HBox>
                                     </VBox>
                                 </l:BlockLayoutCell>
