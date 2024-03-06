@@ -12,28 +12,34 @@ sap.ui.define([
 			var iCheckCarousel = this._getCheckCarouselValue();
 
 			this.oViewModel = new JSONModel({
-                CheckCarousel: iCheckCarousel
+				CheckCarousel: iCheckCarousel,
+				Projects: []
 
-            });
-            this.getView().setModel(this.oViewModel);
+			});
+			this.getView().setModel(this.oViewModel);
+
+			var oProjectsModel = new JSONModel("./model/AllProjects.json");
+			oProjectsModel.dataLoaded().then(function () {
+				this.oViewModel.setProperty("/Projects", oProjectsModel.getData())
+			}.bind(this));
 		},
 		_getCheckCarouselValue: function () {
-            if (this._isMobile()) {
-                return 1;
-            } else if (this._isTablet()) {
-                return 2;
-            } else {
-                return 3;
-            }
-        },
+			if (this._isMobile()) {
+				return 1;
+			} else if (this._isTablet()) {
+				return 2;
+			} else {
+				return 3;
+			}
+		},
 		_isMobile: function () {
-            return window.innerWidth <= 768;
-        },
+			return window.innerWidth <= 768;
+		},
 		_isTablet: function () {
-            return window.innerWidth <= 1024 && window.innerWidth > 768;
-        },
+			return window.innerWidth <= 1024 && window.innerWidth > 768;
+		},
 		onDownloadPDFCurriculum: function () {
-			var pdfUrl = "image/PDF/Curriculo.pdf"; 
+			var pdfUrl = "image/PDF/Curriculo.pdf";
 			var fileName = "Curriculo.pdf";
 
 			var link = document.createElement("a");

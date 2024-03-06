@@ -7,23 +7,23 @@
         <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
             <Title class="sapUiSmallMarginTopBottom" text="Projetos" titleStyle="H2"/>
         </VBox>
-        <Carousel class="sapUiContentPadding">
+        <Carousel class="sapUiContentPadding" pages="{/Projects}">
             <customLayout>
-				<CarouselLayout visiblePagesCount="{/CheckCarousel}" />
-			</customLayout>
-            <f:Card>
+                <CarouselLayout visiblePagesCount="{/CheckCarousel}" />
+            </customLayout>
+            <f:Card >
                 <f:content>
                     <l:VerticalLayout class="sapUiContentPadding" width="100%">
                         <l:BlockLayout>
                             <l:BlockLayoutRow>
-                                <l:BlockLayoutCell titleAlignment="Center" title="MyTask" width="1">
+                                <l:BlockLayoutCell titleAlignment="Center" title="{Name}" width="1">
                                     <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
-                                        <Avatar src="image/ProjectMyTask.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
+                                        <Avatar src="{ImgProject}" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
                                             <detailBox>
                                                 <LightBox>
-                                                    <LightBoxItem imageSrc="image/ProjectMyTask.png">
+                                                    <LightBoxItem imageSrc="{ImgProject}">
                                                     </LightBoxItem>
-                                                    <LightBoxItem imageSrc="image/ProjectMyTask.png">
+                                                    <LightBoxItem imageSrc="{ImgProject}">
                                                     </LightBoxItem>
                                                 </LightBox>
                                             </detailBox>
@@ -32,81 +32,13 @@
                                             <Label text="{i18n>lbUsed}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="{i18n>lbUi5Js}" />
+                                            <Text text="{Use}" />
                                         </HBox>
                                         <HBox class="sapUiTinyMarginBottom">
                                             <Label text="{i18n>lbDescription}:" />
                                         </HBox>
                                         <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="{i18n>lbDescriptionMyTask}" />
-                                        </HBox>
-                                    </VBox>
-                                </l:BlockLayoutCell>
-                            </l:BlockLayoutRow>
-                        </l:BlockLayout>
-                    </l:VerticalLayout>
-                </f:content>
-            </f:Card>
-            <f:Card>
-                <f:content>
-                    <l:VerticalLayout class="sapUiContentPadding" width="100%">
-                        <l:BlockLayout>
-                            <l:BlockLayoutRow>
-                                <l:BlockLayoutCell titleAlignment="Center" title="ADOnline" width="1">
-                                    <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
-                                        <Avatar src="image/ProjectADOnline.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
-                                            <detailBox>
-                                                <LightBox>
-                                                    <LightBoxItem imageSrc="image/ProjectADOnline.png">
-                                                    </LightBoxItem>
-                                                </LightBox>
-                                            </detailBox>
-                                        </Avatar>
-                                        <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
-                                            <Label text="{i18n>lbUsed}:" />
-                                        </HBox>
-                                        <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="{i18n>lbUi5Js}" />
-                                        </HBox>
-                                        <HBox class="sapUiTinyMarginBottom">
-                                            <Label text="{i18n>lbDescription}:" />
-                                        </HBox>
-                                        <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="{i18n>lbDescriptionADOnline}" />
-                                        </HBox>
-                                    </VBox>
-                                </l:BlockLayoutCell>
-                            </l:BlockLayoutRow>
-                        </l:BlockLayout>
-                    </l:VerticalLayout>
-                </f:content>
-            </f:Card>
-            <f:Card>
-                <f:content>
-                    <l:VerticalLayout class="sapUiContentPadding" width="100%">
-                        <l:BlockLayout>
-                            <l:BlockLayoutRow>
-                                <l:BlockLayoutCell titleAlignment="Center" title="{i18n>tlCalculator}" width="1">
-                                    <VBox alignContent="Center" alignItems="Center" justifyContent="Center">
-                                        <Avatar src="image/ProjectCalcu.png" displaySize="Custom" customDisplaySize="10rem" displayShape="Square" showBorder="true">
-                                            <detailBox>
-                                                <LightBox>
-                                                    <LightBoxItem imageSrc="image/ProjectCalcu.png">
-                                                    </LightBoxItem>
-                                                </LightBox>
-                                            </detailBox>
-                                        </Avatar>
-                                        <HBox class="sapUiTinyMarginBottom sapUiTinyMarginTop">
-                                            <Label text="{i18n>lbUsed}:" />
-                                        </HBox>
-                                        <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="{i18n>lbHtmlCss}" />
-                                        </HBox>
-                                        <HBox class="sapUiTinyMarginBottom">
-                                            <Label text="{i18n>lbDescription}:" />
-                                        </HBox>
-                                        <HBox class="sapUiSmallMarginBottom">
-                                            <Text text="{i18n>lbDescriptionCalculator}" />
+                                            <Text text="{Descricao}" />
                                         </HBox>
                                     </VBox>
                                 </l:BlockLayoutCell>
