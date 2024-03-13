@@ -23,8 +23,6 @@
                                                 <LightBox>
                                                     <LightBoxItem imageSrc="{ImgProject}">
                                                     </LightBoxItem>
-                                                    <LightBoxItem imageSrc="{ImgProject}">
-                                                    </LightBoxItem>
                                                 </LightBox>
                                             </detailBox>
                                         </Avatar>
