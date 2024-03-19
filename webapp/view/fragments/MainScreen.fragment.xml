@@ -31,7 +31,7 @@
 
             <HBox justifyContent="Center">
                 <Button class="sapUiTinyMarginBeginEnd" text="{i18n>btTxCurriculum}" tooltip="{i18n>btTtDownloadCV}" icon="sap-icon://download" type="Success" press="onDownloadPDFCurriculum"/>
-                <Button class="sapUiTinyMarginBeginEnd" text="{i18n>btTxSettings}" tooltip="{i18n>btTtGeneralSettings}" icon="sap-icon://settings" type="Neutral"/>
+                <!-- <Button class="sapUiTinyMarginBeginEnd" text="{i18n>btTxSettings}" tooltip="{i18n>btTtGeneralSettings}" icon="sap-icon://settings" type="Neutral"/> -->
             </HBox>
         </VBox>
     </HBox>

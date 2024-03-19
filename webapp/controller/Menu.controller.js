@@ -39,8 +39,8 @@ sap.ui.define([
 			return window.innerWidth <= 1024 && window.innerWidth > 768;
 		},
 		onDownloadPDFCurriculum: function () {
-			var pdfUrl = "image/PDF/Curriculo.pdf";
-			var fileName = "Curriculo.pdf";
+			var pdfUrl = "image/PDF/CV_Jefte_2024_PT.pdf";
+			var fileName = "CV_Jefte_2024_PT.pdf";
 
 			var link = document.createElement("a");
 			link.href = pdfUrl;
